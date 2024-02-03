@@ -1,0 +1,89 @@
+body {
+    font-family: Helvetica;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+col:nth-child(odd) {
+    background: #9994;
+}
+
+col:nth-child(even) {
+    background: #ccc4;
+}
+
+tbody tr:nth-child(odd) {
+    background: #9994;
+}
+
+tbody tr:nth-child(even) {
+    background: #ccc4;
+}
+
+thead {
+    color: #fff;
+}
+
+thead h3 {
+    margin:0;
+    padding-bottom: 30px;
+}
+
+thead p {
+    margin: 0;
+}
+
+thead .price {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+thead .period {
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+thead td:nth-child(1) {
+    background: rgb(120, 135, 171);
+    border-radius: 1em 0em 0em 0em
+}
+
+thead td:nth-child(2) {
+    background: rgb(79, 98, 142);
+}
+
+thead td:nth-child(3) {
+    background: rgb(46, 65, 114);
+}
+
+thead td:nth-child(4) {
+    background: rgb(22, 41, 85);
+}
+
+thead td:nth-child(5) {
+    background: rgb(6, 21, 57);
+    border-radius: 0em 1em 0em 0em
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+tbody button {
+    width: 120px;
+    height: 50px;
+}
+
+tbody tr:nth-child(7) td:nth-child(1) {
+    border-radius: 0em 0em 0em 1em
+}
+
+tbody tr:nth-child(7) td:nth-child(5) {
+    border-radius: 0em 0em 1em 0em
+}
+
